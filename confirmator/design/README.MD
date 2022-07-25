@@ -1,2 +1,2 @@
 # Конфірматор
-<img src = "img/confirmator01.png">
+<img src = "img/Desktop - 5.png">
