@@ -1,5 +1,12 @@
 # Супер Адміністратор
-<img src = "img/super_admin01.png">
+## Основна сторінка
+<img src = "img/Desktop - 12.png">
 
-## Відповідність прототипу
-<img src = "img/super_admin02.png">
+## Створення користувачів
+<img src = "img/Letter - 11.png">
+
+## Редагування користувачів
+<img src = "img/Letter - 10.png">
+
+## Редагування дій користувачів
+<img src = "img/Letter - 5.png">
