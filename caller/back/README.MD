@@ -1,7 +1,9 @@
 # Колер
 Запит:
 /caller_current_week
+
 Відповідь:
+
 {week_id:1,
 slots:[
     [{8;0},{9;0},{10;0},{11;2},{12;3},{13;4},{14;2},{15;2},{16;1},{17;0},{18;1},{19;-1},{20;1},{21;4},{22;0}],
@@ -13,19 +15,30 @@ slots:[
     [{8;0},{9;0},{10;0},{11;2},{12;3},{13;4},{14;2},{15;2},{16;1},{17;0},{18;1},{19;-1},{20;1},{21;4},{22;0}]
     ]
 }
+Запит:
+/avaliable_managers :week_id :day_id :hour
+
+/avaliable_slots week_id:1 day_id:0 hour:12
+
+
+Відповідь:
+[{slot_id:111,name:'Maрія'},{manager_id:113,name:'Артем'},{manager_id:115,name:'Олена'},]
+
+
 
 Запит:
-/create_appointment :week_id :day_id :hour
+/create_appointment :week_id :day_id :hour :slot_id :crm_link :phone :name
+При виконанні запиту в поле work_status_id отримує значення 3 (заплановано, але не підтверджено), в таблиці slots за ключем slot_id 
+
 Відповідь:
-{
-    slot_id:121
     week_id:1,
     day_id:0,
     hour:11,
-    manager_id:2
+    slot_id:121,
+    crm_link:"http://zoho.com/1244",
+    phone:"+380631234567",
+    name:"Максим"
 }
 
-Запит:
-/update_appointment :course_id :CRM_link :age :phone :message
 
 
