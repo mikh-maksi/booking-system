@@ -27,7 +27,7 @@ slots:[
 
 
 Запит:
-/create_appointment :week_id :day_id :hour :slot_id :crm_link :phone :manager_id
+/create_appointment :week_id :day_id :hour :slot_id :crm_link :phone :name :manager_id
 При виконанні запиту в поле work_status_id отримує значення 3 (заплановано, але не підтверджено), в таблиці slots за ключем slot_id 
 
 Відповідь:
@@ -37,7 +37,8 @@ slots:[
     slot_id:121,
     crm_link:"http://zoho.com/1244",
     phone:"+380631234567",
-    name:"Максим"
+    name:"Максим",
+    manager_id:111
 }
 
 
