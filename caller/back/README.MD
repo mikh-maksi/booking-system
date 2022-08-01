@@ -1,6 +1,6 @@
 # Колер
-Запит:
-/caller_current_week
+Запит:  
+**/caller_current_week**
 
 Відповідь:
 
@@ -13,24 +13,28 @@ slots:[
     [{8;0},{9;0},{10;0},{11;2},{12;3},{13;4},{14;2},{15;2},{16;1},{17;0},{18;1},{19;-1},{20;1},{21;4},{22;0}],  
     [{8;0},{9;0},{10;0},{11;2},{12;3},{13;4},{14;2},{15;2},{16;1},{17;0},{18;1},{19;-1},{20;1},{21;4},{22;0}],  
     [{8;0},{9;0},{10;0},{11;2},{12;3},{13;4},{14;2},{15;2},{16;1},{17;0},{18;1},{19;-1},{20;1},{21;4},{22;0}]  
-    ]. 
-}
-Запит:
-/avaliable_managers :week_id :day_id :hour
+    ] 
+} 
+Запит:  
+**/avaliable_managers** :week_id :day_id :hour
 
-/avaliable_slots week_id:1 day_id:0 hour:12
-
-
-Відповідь:
-[{manager_id:111,name:'Maрія'},{manager_id:113,name:'Артем'},{manager_id:115,name:'Олена'},]
+**/avaliable_managers** week_id:1 day_id:0 hour:12
 
 
+Відповідь:  
+[  
+  {manager_id:111,name:'Maрія'},  
+  {manager_id:113,name:'Артем'},  
+  {manager_id:115,name:'Олена'},  
+]
 
-Запит:
-/create_appointment :week_id :day_id :hour :slot_id :crm_link :phone :name :manager_id
+
+
+Запит:  
+**/create_appointment** :week_id :day_id :hour :slot_id :crm_link :phone :name :manager_id 
+   
+_При виконанні запиту в поле work_status_id отримує значення 3 (заплановано, але не підтверджено), в таблиці slots за ключем slot_id_   
   
-При виконанні запиту в поле work_status_id отримує значення 3 (заплановано, але не підтверджено), в таблиці slots за ключем slot_id 
-
 Відповідь:
 {  
     week_id:1,  
