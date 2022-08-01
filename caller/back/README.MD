@@ -22,7 +22,7 @@ slots:[
 
 
 Відповідь:
-[{slot_id:111,name:'Maрія'},{manager_id:113,name:'Артем'},{manager_id:115,name:'Олена'},]
+[{manager_id:111,name:'Maрія'},{manager_id:113,name:'Артем'},{manager_id:115,name:'Олена'},]
 
 
 
