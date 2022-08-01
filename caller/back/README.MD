@@ -28,6 +28,7 @@ slots:[
 
 Запит:
 /create_appointment :week_id :day_id :hour :slot_id :crm_link :phone :name :manager_id
+  
 При виконанні запиту в поле work_status_id отримує значення 3 (заплановано, але не підтверджено), в таблиці slots за ключем slot_id 
 
 Відповідь:
