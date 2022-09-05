@@ -15,7 +15,8 @@
 
 
 ## Avaliable Managers
-/avaliable_managers :date :half
+/avaliable_managers :date :half  
+
 {date:11.09.22,half:1,avaliable_managers:[{time:8,managers:['Марія', 'Артем', 'Роман', 'Слава', 'Марина']},{time:9,managers:['Марія', 'Артем', 'Роман', 'Слава', 'Марина']},{time:10,managers:['Марія', 'Артем', 'Роман', 'Слава', 'Марина']},{timd:11,managers:['Марія', 'Артем', 'Роман', 'Слава', 'Марина']},{timd:12,managers:['Марія', 'Артем', 'Роман', 'Слава', 'Марина']},{timd:13,managers:['Марія', 'Артем', 'Роман', 'Слава', 'Марина']},{timd:14,managers:['Марія', 'Артем', 'Роман', 'Слава', 'Марина']}]
 
 
