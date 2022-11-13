@@ -6,3 +6,23 @@
 Всі хто вільний на даний час на тижні. А також можна обирати тих МІКів, які відображаються.  
 Бек-енд:  
 <a href = "https://goiteens-booking-system.herokuapp.com/avaliable_managers_list/14/6">https://goiteens-booking-system.herokuapp.com/avaliable_managers_list/14/6</a> 
+
+## ManagersPostpone
+<img src = "img/fix03.jpg">
+Додати кнопку "Перенести" (Postpone) до форми інформації про консуьлтацію.  
+
+Функціонал - аналогічний переносу у конфірматора.  
+
+PUT /set_postpone_confirmation/{int:slot_id}/{int:appointment_id}  
+
+<img src = "img/Letter - 3.png" width = 500>
+
+## Cancelation
+
+/set_cancel_confirmation/<int:slot_id>/<int:cancel_type>/<string:message>/
+
+## NoList
+<img src = "img/fix04.jpg">  
+Прибрати перелік вибору менеджеру.
+
+
