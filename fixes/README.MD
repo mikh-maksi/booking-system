@@ -25,4 +25,13 @@ PUT /set_postpone_confirmation/{int:slot_id}/{int:appointment_id}
 <img src = "img/fix04.jpg">  
 Прибрати перелік вибору менеджеру.
 
+## Information
+<img src = "img/fix05.jpg">  
+При фіксації підтвердження, переносу, відміни - вспливає інформаційне вікно.
 
+## Confirmed
+
+<img src = "img/fix06.jpg">  
+/get_confirmed/<int:week_id>/<int:day>/<int:half>/
+
+Додати пункт меню "Підтверджені", які відображають перелік всіх підтверджених консультацій.
